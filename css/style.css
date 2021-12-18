@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        }
+        section{
+          padding: 50px 0px;
+
+        }
+
+        /*header*/
+    #header{width: 100%;float: left;padding: 15px 0px; background-color: #303030;}
+    .logo-part{ 
+        width: 20%;float: left;}
+    .logo-part  a img{
+        width: 50%;}
+    .menu-part{
+        width: 55%;
+        float: left;
+    }
+    .menu-part nav{
+    margin: 18px 50px;
+    }
+    .menu-part nav ul{
+
+    }
+    .menu-part nav ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    }
+    .menu-part nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    }
+    .search-part
+    {width: 25%;
+    float: left;
+    }
+    .search-part input{
+    margin: 12px;
+    padding: 8px;
+    border-radius: 20px;
+    border:  2px solid black;
+    font-size: 17px;
+    }
+    .search-part input::placeholder{
+        text-align: right;
+        font-size: 17px;
+    }
+    .search-part  i{
+    font-size: 25px;
+    display: inline-block;
+    }
+    /*hero part*/
+    #hero{
+        width: 100%;
+        float: left;
+        background: url(bg2.png) no-repeat center;
+        background-size: cover;
+        padding: 50px;
+    }
+    .hero-wp{
+    width: 50%;
+    float: left;
+    padding-top: 150px;
+    }
+    .hero-wp h2{
+    color: white;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    }
+    .hero-wp p{
+        max-width: 400px;
+        color: white;
+        font-size: 18px;
+        margin: 50px 0px;
+    }
+    .hero-wp a button{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 20px;
+    }
+  /*feature section*/
+  #feature{
+      width: 100%;
+      float: left;
+      background: url(bg3.png) no-repeat center;
+      background-size: cover;
+  }
+  .f-wp{
+width: 100% ;
+float: left;
+text-align: center;
+color: white;
+  }
+  .f-dp{
+width:100%;
+float: left;
+  }
+  .feature-box {
+width: 30%;
+float: left;
+margin: 0% 1.5%;
+text-align: center;
+color: white;
+  }
+  .feature-box img{
+width: 100%;
+  }
+  .feature-box h3{
+    background-color: #303030;
+    font-family: 'Oswald', sans-serif;
+
+  }
+  .feature-box p{
+    background-color: #303030;
+    font-family: 'Montserrat', sans-serif;
+}
+/*icon part*/
+#icon{
+  width: 100%;
+  float: left;
+  background: url(img/b4.png) no-repeat center;
+  background-size: cover;
+}
+.i-wp{
+  width: 100% ;
+  float: left;
+  text-align: center;
+  color: white;
+    }
+    .i-dp{
+  width:100%;
+  float: left;
+    }
+    .icon-box {
+  width: 30%;
+  float: left;
+  margin: 0% 1.5%;
+  text-align: center;
+  color: white;
+  background: url(ib.png);
+  
+    }
+    .icon-box img{
+  width: 80%;
+  width: 25%;
+  margin: 20px;
+  
+    }
+    .icon-box h3{
+      font-family: 'Oswald', sans-serif;
+    }
+    .icon-box p{
+      font-family: 'Montserrat', sans-serif;
+  }
+  .icon-box button{
+    background: #303030;
+    color: azure;
+  }
+  .icon-box button{
+    padding: 20px;
+  }
